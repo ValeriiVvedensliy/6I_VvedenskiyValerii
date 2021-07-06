@@ -1,6 +1,6 @@
 
 
-struct Queue<T: AnyObject> {
+struct Queue<T> {
     var items = [T]()
     
     mutating func push(item: T) {
